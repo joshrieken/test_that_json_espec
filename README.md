@@ -57,6 +57,14 @@ end
 ```
 
 
+## Contributing
+
+1. Before opening a pull request, please open an issue first.
+2. Do the usual fork/add/fix/run tests dance, or whatever tickles your fancy. Tests are highly encouraged.
+3. Open a PR.
+4. Treat yourself. You deserve it.
+
+
 ## License
 
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).

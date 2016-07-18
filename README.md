@@ -5,7 +5,7 @@ Provides [Test That JSON!](https://github.com/facto/test_that_json) matchers for
 
 ## Matchers
 
-- [x] `be_json_eql`
+- [x] `be_json_equal`
 - [x] `have_json_keys`
 - [x] `have_only_json_keys`
 - [x] `have_json_values`

@@ -56,7 +56,9 @@ defmodule TestThatJsonEspec.Mixfile do
   defp deps do
     [
       {:espec,          "~> 0.8.0"},
-      {:test_that_json, path: "../test_that_json"},
+      {:test_that_json, "~> 0.1.0"},
+      {:ex_doc,         "~> 0.13.0",  only: :dev},
+      {:inch_ex,        only: :docs},
     ]
   end
 end

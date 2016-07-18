@@ -6,9 +6,6 @@ otp_release:
   - 18.3
   - 19.0
 sudo: false # to use faster container based build environment
-env:
-  - ELIXIR_ERL_OPTIONS=""
-  - ELIXIR_ERL_OPTIONS="+T 9"  # Find timing bugs: http://erlang.org/doc/man/erl.html#+T
 script:
   - mix deps.get
   - mix espec

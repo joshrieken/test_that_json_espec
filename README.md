@@ -2,6 +2,9 @@
 
 Provides [Test That JSON!](https://github.com/facto/test_that_json) matchers for use with [ESpec](https://github.com/antonmi/espec).
 
+[![Build Status](https://travis-ci.org/facto/test_that_json_espec.svg?branch=master)](https://travis-ci.org/facto/test_that_json_espec)
+[![Inline docs](http://inch-ci.org/github/facto/test_that_json_espec.svg)](http://inch-ci.org/github/facto/test_that_json_espec)
+
 
 ## Matchers
 

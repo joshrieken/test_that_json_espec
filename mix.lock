@@ -1,0 +1,4 @@
+%{"espec": {:hex, :espec, "0.8.25", "1c38b78b9a451b9408e532a529862e5212078704435cbb72a27d0c89dda0b0d7", [:mix], [{:meck, "~> 0.8.4", [hex: :meck, optional: false]}]},
+  "exjsx": {:hex, :exjsx, "3.2.0", "7136cc739ace295fc74c378f33699e5145bead4fdc1b4799822d0287489136fb", [:mix], [{:jsx, "~> 2.6.2", [hex: :jsx, optional: false]}]},
+  "jsx": {:hex, :jsx, "2.6.2", "213721e058da0587a4bce3cc8a00ff6684ced229c8f9223245c6ff2c88fbaa5a", [:mix, :rebar], []},
+  "meck": {:hex, :meck, "0.8.4", "59ca1cd971372aa223138efcf9b29475bde299e1953046a0c727184790ab1520", [:rebar, :make], []}}

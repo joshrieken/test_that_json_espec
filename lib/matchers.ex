@@ -14,6 +14,8 @@ defmodule TestThatJson.ESpec.Matchers do
 
   alias TestThatJson.ESpec.Matchers.HaveJsonType
 
+  alias TestThatJson.ESpec.Matchers.HaveJsonSize
+
   def be_json_equal(json), do: {BeJsonEqual, json}
 
   def have_json_keys(value),      do: {HaveJsonKeys,     value}
@@ -28,4 +30,6 @@ defmodule TestThatJson.ESpec.Matchers do
   def have_json_path(value), do: {HaveJsonPath, value}
 
   def have_json_type(value), do: {HaveJsonType, value}
+
+  def have_json_size(value), do: {HaveJsonSize, value}
 end

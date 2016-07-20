@@ -6,4 +6,4 @@
   "jsx": {:hex, :jsx, "2.6.2", "213721e058da0587a4bce3cc8a00ff6684ced229c8f9223245c6ff2c88fbaa5a", [:mix, :rebar], []},
   "meck": {:hex, :meck, "0.8.4", "59ca1cd971372aa223138efcf9b29475bde299e1953046a0c727184790ab1520", [:rebar, :make], []},
   "poison": {:hex, :poison, "2.2.0", "4763b69a8a77bd77d26f477d196428b741261a761257ff1cf92753a0d4d24a63", [:mix], []},
-  "test_that_json": {:hex, :test_that_json, "0.1.0", "3801b72eea73e963b8b3e978bbc7cb936656ae9262598696e634cad6fc4cdd7d", [:mix], [{:exjsx, "~> 3.2.0", [hex: :exjsx, optional: false]}]}}
+  "test_that_json": {:hex, :test_that_json, "0.2.0", "fed22ffc98e32c3502dea24e0bbaa128890080b0307f87adbd12184b70c238ca", [:mix], [{:exjsx, "~> 3.2.0", [hex: :exjsx, optional: false]}]}}

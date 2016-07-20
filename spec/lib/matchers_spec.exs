@@ -100,4 +100,17 @@ defmodule TestThatJson.ESpec.MatchersSpec do
 
     it do: should have_json_path("key1")
   end
+
+  describe "have_json_type" do
+    let :json do
+      """
+      {
+        "key1": "data",
+        "key2": "data"
+      }
+      """
+    end
+
+    it do: should have_json_type(:object)
+  end
 end

@@ -16,8 +16,8 @@ Provides [Test That JSON!](https://github.com/facto/test_that_json) matchers for
 - [x] `have_json_properties`
 - [x] `have_only_json_properties`
 - [x] `have_json_path`
-- [ ] `have_json_type`
-- [ ] `have_json_size`
+- [x] `have_json_type`
+- [x] `have_json_size`
 
 
 ## Configuration

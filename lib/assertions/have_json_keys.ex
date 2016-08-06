@@ -1,21 +1,21 @@
-defmodule TestThatJson.ESpec.Matchers.HaveJsonValues do
+defmodule TestThatJson.ESpec.Assertions.HaveJsonKeys do
   use ESpec.Assertions.Interface
 
-  alias TestThatJson.Assertions
+  alias TestThatJson.Helpers
 
   defp match(subject, value) do
-    result = Assertions.has_json_values(subject, value)
+    result = Helpers.has_json_keys(subject, value)
     {result, result}
   end
 
   defp success_message(subject, value, _result, positive) do
     has = if positive, do: "has", else: "doesn't have"
-    "`#{inspect subject}` #{has} JSON values `#{inspect value}`."
+    "`#{inspect subject}` #{has} JSON keys `#{inspect value}`."
   end
 
   defp error_message(subject, value, _result, positive) do
     to = if positive, do: "to have", else: "not to have"
     but = if positive, do: "doesn't", else: "does"
-    "Expected `#{inspect subject}` #{to} JSON values `#{inspect value}`, but it #{but}."
+    "Expected `#{inspect subject}` #{to} JSON keys `#{inspect value}`, but it #{but}."
   end
 end

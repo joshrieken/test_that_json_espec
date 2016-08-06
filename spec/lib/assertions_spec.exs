@@ -1,4 +1,4 @@
-defmodule TestThatJson.ESpec.MatchersSpec do
+defmodule TestThatJson.ESpec.AssertionsSpec do
   use ESpec
   use TestThatJson.ESpec
 

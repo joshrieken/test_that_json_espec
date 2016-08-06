@@ -1,10 +1,10 @@
-defmodule TestThatJson.ESpec.Matchers.BeJsonEqual do
+defmodule TestThatJson.ESpec.Assertions.BeJsonEqual do
   use ESpec.Assertions.Interface
 
-  alias TestThatJson.Assertions
+  alias TestThatJson.Helpers
 
   defp match(subject, value) when is_binary(value) do
-    result = Assertions.is_json_equal(subject, value)
+    result = Helpers.is_json_equal(subject, value)
     {result, result}
   end
 

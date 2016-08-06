@@ -40,7 +40,7 @@ defmodule TestThatJsonEspec.Mixfile do
 
   defp description do
     """
-    Test That JSON! matchers for ESpec
+    Test That JSON! assertions for ESpec
     """
   end
 

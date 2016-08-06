@@ -1,20 +1,20 @@
-defmodule TestThatJson.ESpec.Matchers do
-  alias TestThatJson.ESpec.Matchers.BeJsonEqual
+defmodule TestThatJson.ESpec.Assertions do
+  alias TestThatJson.ESpec.Assertions.BeJsonEqual
 
-  alias TestThatJson.ESpec.Matchers.HaveJsonKeys
-  alias TestThatJson.ESpec.Matchers.HaveOnlyJsonKeys
+  alias TestThatJson.ESpec.Assertions.HaveJsonKeys
+  alias TestThatJson.ESpec.Assertions.HaveOnlyJsonKeys
 
-  alias TestThatJson.ESpec.Matchers.HaveJsonValues
-  alias TestThatJson.ESpec.Matchers.HaveOnlyJsonValues
+  alias TestThatJson.ESpec.Assertions.HaveJsonValues
+  alias TestThatJson.ESpec.Assertions.HaveOnlyJsonValues
 
-  alias TestThatJson.ESpec.Matchers.HaveJsonProperties
-  alias TestThatJson.ESpec.Matchers.HaveOnlyJsonProperties
+  alias TestThatJson.ESpec.Assertions.HaveJsonProperties
+  alias TestThatJson.ESpec.Assertions.HaveOnlyJsonProperties
 
-  alias TestThatJson.ESpec.Matchers.HaveJsonPath
+  alias TestThatJson.ESpec.Assertions.HaveJsonPath
 
-  alias TestThatJson.ESpec.Matchers.HaveJsonType
+  alias TestThatJson.ESpec.Assertions.HaveJsonType
 
-  alias TestThatJson.ESpec.Matchers.HaveJsonSize
+  alias TestThatJson.ESpec.Assertions.HaveJsonSize
 
   def be_json_equal(json), do: {BeJsonEqual, json}
 

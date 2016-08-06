@@ -1,10 +1,10 @@
-defmodule TestThatJson.ESpec.Matchers.HaveJsonType do
+defmodule TestThatJson.ESpec.Assertions.HaveJsonType do
   use ESpec.Assertions.Interface
 
-  alias TestThatJson.Assertions
+  alias TestThatJson.Helpers
 
   defp match(subject, type) do
-    result = Assertions.has_json_type(subject, type)
+    result = Helpers.has_json_type(subject, type)
     {result, result}
   end
 

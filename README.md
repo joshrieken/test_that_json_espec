@@ -53,7 +53,7 @@ Add `test_that_json_espec` as a test-only dependency in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:test_that_json_espec, "~> 0.1.0", only: :test},
+    {:test_that_json_espec, "~> 0.5.0", only: :test},
   ]
 end
 ```

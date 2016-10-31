@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.6.0
+
+- Support espec ~> 1.0
+
+
 ## v0.5.0
 
 ### Backwards-Incompatible Changes

@@ -1,3 +1,6 @@
+# WARNING: This repo will no longer be maintained by me, @facto. I have moved entirely away from espec in favor of exunit. If you are interested in maintaining this, let me know and I will transfer control to you.
+
+
 # Test That JSON! ...for ESpec
 
 Provides [Test That JSON!](https://github.com/facto/test_that_json) assertions for use with [ESpec](https://github.com/antonmi/espec).
